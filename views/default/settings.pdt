@@ -1,0 +1,26 @@
+<ul>
+    <li>
+        <?php
+        $this->Form->label($this->_('Paytr.meta.merchant_id', true), 'merchant_id');
+        $this->Form->fieldText('merchant_id', (isset($meta['merchant_id']) ? $meta['merchant_id'] : null), ['id' => 'merchant_id', 'class' => 'block']);
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_('Paytr.meta.merchant_key', true), 'merchant_key');
+        $this->Form->fieldText('merchant_key', (isset($meta['merchant_key']) ? $meta['merchant_key'] : null), ['id' => 'merchant_key', 'class' => 'block']);
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_('Paytr.meta.merchant_salt', true), 'merchant_salt');
+        $this->Form->fieldText('merchant_salt', (isset($meta['merchant_salt']) ? $meta['merchant_salt'] : null), ['id' => 'merchant_salt', 'class' => 'block']);
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_('Paytr.meta.merchant_test_mode', true), 'merchant_test_mode');
+        $this->Form->fieldText('merchant_test_mode', (isset($meta['merchant_test_mode']) ? $meta['merchant_test_mode'] : null), ['id' => 'merchant_test_mode', 'class' => 'block']);
+        ?>
+    </li>
+</ul>

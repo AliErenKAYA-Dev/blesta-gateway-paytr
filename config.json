@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"name": "Paytr.name",
+	"description": "Paytr.description",
+	"authors": [
+        {
+            "name": "Ali Eren KAYA",
+            "url": "https://www.alierenkaya.com/"
+        }
+    ],
+	"currencies": ["USD","TRY","EUR"],
+	"signup_url": "https://www.paytr.com/uye-isyeri-olun"
+}

@@ -1,0 +1,18 @@
+<script src="https://www.paytr.com/js/iframeResizer.min.js"></script>
+<script>
+    iFrameResize({}, '#paytriframe');
+</script>
+
+<?php
+// CSRF korumasını bu forma özel kapatır
+$this->Form->setCsrfOptions(['set_on_create' => true]);
+$this->Form->create((isset($post_to) ? $post_to : null), ['method' => (isset($form_method) ? $form_method : 'post')]);
+// Gizli alanlar
+if ((isset($fields) ? $fields : null)) {
+    foreach ($fields as $key => $value) {
+        $this->Form->fieldHidden($key, $value);
+    }
+}
+
+$this->Form->end();
+?>
