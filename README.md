@@ -1,7 +1,7 @@
 
 # Blesta PayTR Ödeme Modülü
 
-Blesta için geliştirilen PayTR ödeme modülü, müşterilerinizin PayTR altyapısını kullanarak güvenli ve hızlı bir şekilde ödeme yapmasını sağlar. Modül, Blesta'nın ödeme sistemine entegre edilerek otomatik ödeme işlemlerini destekler.
+Blesta için geliştirilen PayTR (Iframe) ödeme modülü, müşterilerinizin PayTR altyapısını kullanarak güvenli ve hızlı bir şekilde ödeme yapmasını sağlar. Modül, Blesta'nın ödeme sistemine entegre edilerek otomatik ödeme işlemlerini destekler.
 
 ## ✨ Özellikler
 
@@ -40,7 +40,7 @@ Blesta için geliştirilen PayTR ödeme modülü, müşterilerinizin PayTR altya
 
 ## ⚡ Kullanım
 
--   Müşteriler, ödeme işlemlerini PayTR üzerinden gerçekleştirebilir.
+-   Müşteriler, ödeme işlemlerini PayTR üzerinden Iframe aracılığı ile gerçekleştirebilir.
     
 -   Ödeme başarılı olursa faturalar otomatik olarak işlenir.
     
